@@ -3,8 +3,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: "*"
-  endpoint:
+        include: health
     health:
       show-details: always
   tracing:
